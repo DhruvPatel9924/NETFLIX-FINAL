@@ -1,10 +1,9 @@
 # NETFLIX-FINAL
 
-#Netflix Clone
 
 This is a Netflix clone built with React.js. It is a web application that replicates the design and functionality of the popular streaming platform Netflix.
 
-Features
+##Features
 
 Browse and search for popular movies and TV shows
 Watch trailers for selected titles
