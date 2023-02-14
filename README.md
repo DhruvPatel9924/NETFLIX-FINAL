@@ -22,6 +22,16 @@ Start the development server using npm start
 
 
 
+Building the App
+
+To build the app for production, run the following command:
+npm run build
+
+
+
+
+
+
 
 Contributing
 
