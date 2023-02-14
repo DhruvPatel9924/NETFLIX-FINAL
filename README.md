@@ -1,40 +1,44 @@
 # NETFLIX-FINAL
+
 Netflix Clone
 
 This is a Netflix clone built with React.js. It is a web application that replicates the design and functionality of the popular streaming platform Netflix.
 
 Features
 
-Login and registration system.
-Browse movies and TV shows.
-Search for movies and TV shows by name or genre.
-Play movie or TV show trailers.
-Save movies and TV shows to your watchlist.
-Responsive design for mobile and desktop.
-Technologies Used
+Browse and search for popular movies and TV shows
+Watch trailers for selected titles
+User authentication using Firebase
+Responsive design for different screen sizes
+Integration with the TMDb API for movie data
 
-React.js
-Firebase (authentication and database)
-Axios (API requests)
-TMDB API (movie and TV show data)
-Getting Started
+Installation
 
-To get started with this project, follow these steps:
+Clone the repository using git clone https://github.com/yourusername/netflix-clone.git
+Navigate to the project directory using cd netflix-clone
+Install the dependencies using npm install
+Create a .env file in the project directory and add your Firebase API keys as REACT_APP_API_KEY, REACT_APP_AUTH_DOMAIN, REACT_APP_PROJECT_ID, REACT_APP_STORAGE_BUCKET, REACT_APP_MESSAGING_SENDER_ID, and REACT_APP_APP_ID.
+Start the development server using npm start
 
-Clone the repository to your local machine.
-Install dependencies with npm install.
-Create a new Firebase project and update the Firebase configuration in src/firebase.js.
-Sign up for a TMDB API key and update the API key in src/requests.js.
-Start the development server with npm start.
+
+
+
 Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Contributions are always welcome! If you would like to contribute to this project, please fork the repository and create a pull request. Before submitting a pull request, please ensure that your changes are tested and follow the coding conventions of the project.
 
+
+
+Credits
+
+This project was created with the help of the following resources:
+
+React documentation
+Firebase documentation
+TMDb API documentation
 License
 
 This project is licensed under the MIT License.
 
-Acknowledgements
 
-This project was inspired by Clever Programmer's Netflix Clone tutorial.
-Movie and TV show data is provided by the TMDB API.
+
